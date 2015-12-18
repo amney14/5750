@@ -74,7 +74,7 @@ public class Register extends HttpServlet {
 			out.println("Please Fill out the whole form");
 		}		
 		else{
-			//out.println(first);
+			//out.println(first);  
 			out.println("Your Registered");
 		}
     }
