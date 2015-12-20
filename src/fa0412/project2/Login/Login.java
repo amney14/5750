@@ -30,7 +30,7 @@ public class Login extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-File file = new File("/Users/Amney/Documents/workspace/csc5750/src/fa0412/Login.html");
+File file = new File("../Documents/workspace/csc5750/src/fa0412/Login.html");
 		
 		BufferedReader reader = null;
 		response.setContentType("text/html");

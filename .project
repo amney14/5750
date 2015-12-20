@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>csc5750</name>
+	<name>5750</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -37,7 +37,7 @@
 		<link>
 			<name>WebContent/style/bootstrap.css</name>
 			<type>1</type>
-			<location>/Users/Amney/Documents/workspace/csc5750/src/fa0412/project2/Home/bootstrap.css</location>
+			<location>C:/Users/Amney/Documents/workspace/csc5750/src/fa0412/project2/Home/bootstrap.css</location>
 		</link>
 	</linkedResources>
 </projectDescription>

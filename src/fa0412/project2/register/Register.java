@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import fa0412.project2.utils.MysqlConnection;
+
 /**
  * Servlet implementation class Register
  */
@@ -31,7 +33,7 @@ public class Register extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		File file = new File("/Users/Amney/Documents/workspace/csc5750/src/fa0412/Register.html");
+		File file = new File(getServletContext().getRealPath("/csc5750/src/fa0412/Register.html"));
 		
 		BufferedReader reader = null;
 		response.setContentType("text/html");
@@ -74,7 +76,7 @@ public class Register extends HttpServlet {
 			out.println("Please Fill out the whole form");
 		}		
 		else{
-			//out.println(first);  
+		//TODO: add connection code here
 			out.println("Your Registered");
 		}
     }
